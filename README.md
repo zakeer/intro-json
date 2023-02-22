@@ -43,3 +43,59 @@ JSON can also represents arrays (multiple) of Objects.
     }
 ]
 ```
+
+### Nested Object and Arrays
+```json
+{
+ "name" "Zahid",
+ "age": 28,
+ "married": true,
+ "skills": [
+    "Python",
+    "Django",
+    "HTML",
+    "SQL"
+ ],
+ "compentencies": [
+    {
+        "name": "Python",
+        "rating": 8
+    },
+    {
+        "name": "Django",
+        "rating": 6
+    },
+    {
+        "name": "HTML",
+        "rating": 9
+    },
+    {
+        "name": "SQL",
+        "rating": 7
+    },
+ ],
+ "education": [
+    {
+        "institute": "Anjuman High School",
+        "type": "SSC",
+        "city": "Guntur",
+        "year": 2010
+    },
+    {
+        "institute": "NRI Academy",
+        "type": "Intermediate",
+        "city": "Ongole",
+        "year": 2012
+    },
+    {
+        "institute": "KHIT",
+        "type": "B.Tech",
+        "city": "Guntur",
+        "year": 2016
+    }
+ ] 
+}
+```
+
+
+
